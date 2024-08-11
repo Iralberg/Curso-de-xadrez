@@ -15,6 +15,11 @@ color: white;
    margin-right: -8px;
    font-family: Arial, Helvetica, sans-serif;
    padding: 10px;
+   
+}
+#princ{
+
+    margin-top: -8px;
 }
 nav{
 background-color: #00BF63;
@@ -43,6 +48,7 @@ display: flex;
 .cinza{
 display: flex;
 background-color: #444144;
+
 }
 .quad{
 color: #000;
@@ -98,4 +104,9 @@ aside{
 aside li{
 
     text-align: left;
+}
+#Art{
+margin-bottom: -10px;
+
+
 }
