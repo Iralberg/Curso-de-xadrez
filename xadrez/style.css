@@ -1,0 +1,101 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+US+Trad:wght@100..400&display=swap');
+@font-face {
+    font-family:'Wall' ;
+    src: url('../fonts/Watermelon.ttf') format('truetype');
+}
+
+
+
+header{
+color: white;
+    background-color: black;
+    text-align: center;
+   margin-left: -8px;
+   margin-right: -8px;
+   font-family: Arial, Helvetica, sans-serif;
+   padding: 10px;
+}
+nav{
+background-color: #00BF63;
+margin-left: -8px;
+margin-right: -8px;
+font-size: 20px;
+padding: 10px;
+margin-top: -17px;
+}
+a{
+padding: 6px;
+text-decoration: none;
+color:#000000 ;
+font-weight: bold;
+}
+ nav > a:hover{
+background-color: #000000;
+color:#00BF63 ;
+border-radius: 7px;
+ }
+  
+ img{
+display: flex;
+}
+
+.cinza{
+display: flex;
+background-color: #444144;
+}
+.quad{
+color: #000;
+    background-color:white ;
+    height: 100px;
+    padding: 5px;
+    font-family: 'Playwrite US Trad', sans-serif;
+    border-radius: 8px;
+    border: 2px solid ;
+}
+
+.preto{
+    padding: 10px 10px 200px 30px;
+margin-top: 0.5px;
+margin-left: -8px;
+margin-right: -8px;
+    background-color: black;
+    display: flex;
+}
+main{
+    margin-right: -8px;
+    margin-left: -8px;
+padding: 8px;
+    background-color: #191E1F;
+    height: 200px;
+    display: flex;
+}
+main > h1{
+    color: aliceblue;
+}
+main >a{
+margin-left: 40px;
+background-color: white;
+padding: 20px;
+height: 20px;
+margin-top: 20px;
+border-radius: 8px;
+    border: 2px solid ;
+}
+main a:hover{
+text-decoration: underline;
+color: blueviolet;
+}
+.tam{
+
+    display: inline;
+}
+aside{
+    background-color: #444144;
+    margin-left: 20px;
+    padding-right: 20px;
+}
+aside li{
+
+    text-align: left;
+}
