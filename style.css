@@ -43,6 +43,7 @@ border-radius: 7px;
   
  img{
 display: flex;
+
 }
 
 .cinza{
@@ -67,9 +68,10 @@ margin-left: -8px;
 margin-right: -8px;
     background-color: black;
     display: flex;
+    flex-wrap: wrap;
 }
 img >.preto{
-width: 100%;
+    width: 45%;
 
 
 
@@ -107,6 +109,7 @@ aside{
     background-color: #444144;
     margin-left: 20px;
     padding-right: 20px;
+    width: 45%;
 }
 aside li{
 
@@ -114,6 +117,8 @@ aside li{
 }
 #Art{
 margin-bottom: -10px;
+flex-wrap: wrap;
+
 
 
 }
